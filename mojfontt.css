@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'KatarinaPehar';
+    src: url('DM/KatarinaPehar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'KatarinaPehar', sans-serif;
+}
+
+h2 {
+    font-family: 'KatarinaPehar', serif;
+}
+body {
+	background-image: url("yellow.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.navigacija a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 10px 25px;
+	border: 1px solid #000;
+	margin: 5px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
